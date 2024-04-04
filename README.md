@@ -1,2 +1,15 @@
-# malay-stemmer
-This project aims to develop a Malay stemmer based on the rule approach. This project focuses on three categories, namely prefix affixes, suffix affixes and adjacent affixes where this project will prune or separate the affix words to produce the base word. Python, which is one of the programming language will be used to implement this project.
+# Malay-words-stemmer
+An algorithm I designed during my internship to stem Bahasa Malaysia words based on the language's grammar properties. 
+Uses Malay WordNet as dictionary.
+
+Algorithm returns approximately 78% accuracy.
+
+Firstly, run ```functions.py```
+
+To perform stemming on word 'pemberian' :
+> ``` malaystemmer('pemberian') ```
+
+
+References:
+1. Malay WordNet http://wn-msa.sourceforge.net/index.eng.html
+# stemmer
